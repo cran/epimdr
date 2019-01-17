@@ -1372,7 +1372,7 @@ simod=function(t, y, parameters){
   plot(x=out$S, y=out$I, xlab="Fraction suceptible", ylab="Fraction infected", type="l")
   title(paste("R0=", round(R0, 1), "Period=", rp))
   
-fld=flowField(simod, x.lim=range(out$S), y.lim=range(out$I), 
+fld=flowField(simod, xlim=range(out$S), ylim=range(out$I), 
 parameters=parms, system="two.dim", add=TRUE,
 ylab="I", xlab="S")
 #cli=nullclines(simod, x.lim=c(0,.4), y.lim=c(0,.01), 

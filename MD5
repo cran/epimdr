@@ -1,7 +1,7 @@
-0eda04c1c4490f0402dbfdd6195314b9 *DESCRIPTION
+c4b780561364eea294e798233ed9ff56 *DESCRIPTION
 e2570826dbd610e3d9631f107aaf7c15 *NAMESPACE
 665f55d4c5b51b15b0863ac68edeacb2 *R/data.R
-a7654593446e1391513193b7c0c701d6 *R/rfuncs.R
+38d0626d2646afe639a102f4f27fb655 *R/rfuncs.R
 bce3efdc577a3ea7d4389584677d762f *data/Icelandflu.rda
 00ec2e19998fc53f4e8789449240f071 *data/SH9.rda
 204831c7a8c9b03131e8643da5d07e4c *data/black.rda
@@ -89,7 +89,7 @@ dbf88c27f1d3a68e82277349a8c396c5 *man/plot.cm.Rd
 1c133573f3ff923983991adf864c96b0 *man/r0fun.Rd
 4004658597fa93935be1f6331e4d1fba *man/rabbit.Rd
 73a02f128e4662908c53c04066fcd8a3 *man/rabies.Rd
-49c5f168c6ee1cbb862c16f21aef18df *man/retrospec.Rd
+c9c886505f4cb1df828048146ae88297 *man/retrospec.Rd
 3ffde089e8ca3115d0bfd8043af8a143 *man/ringlattice.Rd
 47e0135d606c56da4e2faa994be98265 *man/seirmod.Rd
 be019e855854b3a41ce86e356965f8dc *man/seirmod2.Rd

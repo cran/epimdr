@@ -4,8 +4,8 @@
 \alias{retrospec}
 \title{Function to predict efficacy of outbreak-response vaccination campaign}
 \usage{
-retrospec(R, day, vaccine_efficacy, target_vaccination, intervention_length,
-  mtime, LP = 7, IP = 7, N = 10000)
+retrospec(R, day, vaccine_efficacy, target_vaccination,
+  intervention_length, mtime, LP = 7, IP = 7, N = 10000)
 }
 \arguments{
 \item{R}{reproductive ratio}
