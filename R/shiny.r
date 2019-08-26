@@ -9,7 +9,6 @@ globalVariables("x")
 #' @importFrom graphics abline curve legend lines plot title
 #' @importFrom shiny renderPlot
 #' @importFrom deSolve ode
-#' @importFrom phaseR flowField
 #' @importFrom polspline lspec
 May.app=shinyApp(
 # This creates the User Interface (UI)

@@ -1,9 +1,10 @@
-ad2dd4cef23edea09f3a0522994511a4 *CHANGES
-7163e83234278110b38a9c6c0cf4fcc7 *DESCRIPTION
-caf51efcaa94ed9c5827731714b5f70f *NAMESPACE
+4e9a2138f77e6f7ddfb6f03277292827 *CHANGES
+10833ad3536275839cfa5643d97fd79b *DESCRIPTION
+c452cfffd19b82769bb2775329c737a1 *NAMESPACE
 665f55d4c5b51b15b0863ac68edeacb2 *R/data.R
+b56b38ed40fde37526bcffbb1cb62a8e *R/flowField.R
 abfd49798ff381bc3cf1507fd6a8b671 *R/rfuncs.R
-21a2e1a7f27c733c410ae4eb45dead61 *R/shiny.r
+04dad8232dc8596030896a806692d893 *R/shiny.r
 bce3efdc577a3ea7d4389584677d762f *data/Icelandflu.rda
 00ec2e19998fc53f4e8789449240f071 *data/SH9.rda
 204831c7a8c9b03131e8643da5d07e4c *data/black.rda
@@ -65,6 +66,7 @@ f93646f6b6ea6610dac7efbaab4a7065 *man/ccs.Rd
 23e32060276d8fbb0a9be9dde8e93ad6 *man/ferrari.Rd
 c51599f4ccba2ded3a3d1ba6505a7347 *man/filipendula.Rd
 ac198e5da56762477a4fbdbb23301f7d *man/fiv.Rd
+cab98b44ece502ca2cd3655ce505057e *man/flowField.Rd
 190a00f527dbe8957c109543290225dc *man/flu.Rd
 65fc5effffa08fe664776a277dafcad6 *man/gillespie.Rd
 1c9492c199f2971eb5fe776a011231e7 *man/gm.Rd
