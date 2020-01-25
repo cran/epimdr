@@ -9,7 +9,7 @@
   \item{age}{ age-bracket (in years)}
   \item{mid}{mid-point of age-bracket (in years)}
   \item{n}{number of tests}
-  \item{pos}{number seropositve}
+  \item{pos}{number seropositive}
   \item{neg}{number seronegative}
   \item{f}{seroprevalence}
 }}
@@ -20,6 +20,6 @@ Black (1959) Measles antibodies in the population of New Haven, Connecticut. Jou
 black
 }
 \description{
-Seroprevalence-by-agebracket for measles in prevaccination New Haven as studied by Black (1959).
+Seroprevalence-by-age-bracket for measles in prevaccination New Haven as studied by Black (1959).
 }
 \keyword{datasets}

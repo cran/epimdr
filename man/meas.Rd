@@ -13,7 +13,7 @@
   \item{B}{Biweekly births}
 }}
 \source{
-Bjornstad et al. (2002) Endemic and epidemic dynamics of measles: Estimating transmission rates and their scaling using a time series SIR model. Ecol Monogr 72: 169-184. doi.org/10.2307/3100023.
+Bjornstad et al. (2002) Endemic and epidemic dynamics of measles: Estimating transmission rates and their scaling using a time series SIR model. Ecological Monographs 72: 169-184. doi.org/10.2307/3100023.
 }
 \usage{
 meas

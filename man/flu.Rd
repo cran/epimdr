@@ -6,7 +6,7 @@
 \title{Boarding school influenza data.}
 \format{A data frame with 14 rows and 2 variables:
 \describe{
-  \item{day}{day since begining of outbreak}
+  \item{day}{day since beginning of outbreak}
   \item{cases}{number of sick children}
 }}
 \source{

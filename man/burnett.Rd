@@ -15,13 +15,13 @@
   \item{PercentageofHostsParasitized}{ }
 }}
 \source{
-Burnett, T. A model of host-parasite interaction Proceedings of the 10th International Congress, Entomology, 1958, 2, 679-686
+Burnett, T. A. (1958) Model of host-parasite interaction Proceedings of the 10th International Congress, Entomology, 1958, 2, 679-686
 }
 \usage{
 burnett
 }
 \description{
-Data is of 22 generations of greenhouse white flies (\emph{Trialeurodes vaporariorum}) and it's parasitoid, \emph{Encarsia formosa}.
+Data is of 22 generations of greenhouse white flies (\emph{Trialeurodes vaporariorum}) and its parasitoid, \emph{Encarsia formosa}.
 Column names are self explanatory.
 }
 \keyword{datasets}

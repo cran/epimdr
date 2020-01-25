@@ -224,7 +224,7 @@ output$plot2 <- renderPlot({
   abline(v=1/R0, col="green")
   curve(paras["mu"]*(1-x)/(paras["beta0"]*x), min(out$S), max(out$S), add=TRUE, col="red")
     legend("topright",
-        legend=c("I-socline", "S-isocline"),
+        legend=c("S-isocline", "I-isocline"),
         lty=c(1,1),
          col=c("red", "green"))
  
@@ -403,7 +403,7 @@ rp=2*pi/Im(EE[WW])
   abline(v=1/R0, col="green")
   curve(paras["mu"]*(1-x)/(paras["beta"]*x - (paras["omega"]*paras["gamma"])/(paras["mu"]+paras["omega"])), min(out$S), max(out$S), add=TRUE, col="red")
     legend("topright",
-        legend=c("I-socline", "S-isocline"),
+        legend=c("S-isocline", "I-isocline"),
         lty=c(1,1),
          col=c("red", "green"))
  
@@ -443,7 +443,7 @@ mainPanel(
       tabPanel("Equations", 
            withMathJax(
             helpText("Susceptible $$\\frac{dS}{dt} = \\mu (N - S) - \\frac{\\beta I S}{N}$$"),
-            helpText("Infecitous $$\\frac{dI}{dt} = \\frac{\\beta I S}{N} - (\\mu+\\sigma) I$$"),
+            helpText("Infectious $$\\frac{dI}{dt} = \\frac{\\beta I S}{N} - (\\mu+\\sigma) I$$"),
            helpText("Removed $$\\frac{dR}{dt} = \\gamma I - \\mu R$$"),
            helpText("Reproductive ratio $$R_0 =  \\frac{1}{\\gamma+\\mu} \\frac{\\beta N}{N}$$")             
            ))
@@ -550,7 +550,7 @@ ylab="I", xlab="S")
   abline(v=1/R0, col="green")
   curve(parms["mu"]*(1-x)/(parms["beta"]*x), min(out$S), max(out$S), add=TRUE, col="red")
     legend("topright",
-        legend=c("I-socline", "S-isocline"),
+        legend=c("S-isocline", "I-isocline"),
         lty=c(1,1),
          col=c("red", "green"))
 

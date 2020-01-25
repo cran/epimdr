@@ -7,9 +7,9 @@
 TSIRlyap(I, S, alpha, bt, N)
 }
 \arguments{
-\item{I}{a vector containg the time series of Is}
+\item{I}{a vector containing the time series of Is}
 
-\item{S}{vector containg the time series of Ss}
+\item{S}{vector containing the time series of Ss}
 
 \item{alpha}{the exponent on I}
 

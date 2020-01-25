@@ -2,7 +2,7 @@
 % Please edit documentation in R/rfuncs.R
 \name{siragemod}
 \alias{siragemod}
-\title{Gradient-function for the age-structured SIR model with possibly heterogeneous mixin}
+\title{Gradient-function for the age-structured SIR model with possibly heterogeneous mixing}
 \usage{
 siragemod(t, logx, parms)
 }
@@ -17,7 +17,7 @@ siragemod(t, logx, parms)
 A list of gradients
 }
 \description{
-Gradient-function for the age-structured SIR model with possibly heterogeneous mixin
+Gradient-function for the age-structured SIR model with possibly heterogeneous mixing
 }
 \examples{
 a=rep(1,4)

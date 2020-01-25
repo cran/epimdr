@@ -9,7 +9,7 @@
 \arguments{
 \item{object}{an object of class cm}
 
-\item{plot}{if TRUE a barplot of the degree distribution is produced}
+\item{plot}{if TRUE a bar plot of the degree distribution is produced}
 
 \item{...}{other arguments}
 }

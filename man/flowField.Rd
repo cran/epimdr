@@ -2,7 +2,7 @@
 % Please edit documentation in R/flowField.R
 \name{flowField}
 \alias{flowField}
-\title{Flow field}
+\title{Flowfield}
 \usage{
 flowField(deriv, xlim, ylim, parameters = NULL, system = "two.dim",
   points = 21, col = "gray", arrow.type = "equal",

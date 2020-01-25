@@ -18,6 +18,6 @@ Metcalf et al (2011) Rubella metapopulation dynamics and importance of spatial c
 peru
 }
 \description{
-Rubella incidence by age as studied by Metcale et al (2011).
+Rubella incidence by age as studied by Metcalf et al (2011).
 }
 \keyword{datasets}

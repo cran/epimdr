@@ -15,12 +15,12 @@
   \item{SarsSing}{Number of cases of SARS in Singapore during the 2003 outbreak}
 }}
 \source{
-Ferrari et al. (2005) Estimation and inference of R-0 of an infectious pathogen by a removal method. Math Biosci 198: 14-26. doi.org/10.1016/j.mbs.2005.08.002.
+Ferrari et al. (2005) Estimation and inference of R-0 of an infectious pathogen by a removal method. Mathematical Biosciences 198: 14-26. doi.org/10.1016/j.mbs.2005.08.002.
 }
 \usage{
 ferrari
 }
 \description{
-The incidence aggreagted by serial interval of a number of outbreaks studied by Ferrari et al. 2005.
+The incidence aggregated by serial interval of a number of outbreaks studied by Ferrari et al. 2005.
 }
 \keyword{datasets}

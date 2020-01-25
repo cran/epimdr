@@ -8,7 +8,7 @@
 #' \item{fade3}{Average duration of fadeout (of at least 3 weeks of length)}
 #'   \item{ext}{Fraction of time when measles was absent}
 #'   \item{size}{Median population size}
-#'   \item{fade}{Average duration of fadouts (of a week or longer)}
+#'   \item{fade}{Average duration of fadeouts (of a week or longer)}
 #'   \item{se3}{Standard error fade3}
 #'   \item{se}{Standard error of fade}
 #'   \item{n3}{The number of fadeouts (of at least 3 weeks of length)} 
@@ -20,9 +20,9 @@
 #' Environmental and Ecological Statistics 15: 265-277. doi:10.1007/s10651-007-0059-3.
 "ccs"
 
-#' Massachustets gonorrhea data.
+#' Massachusetts gonorrhea data.
 #'
-#'Weekly cases of gonorrhea in Massachusets between 2006 and 2015.
+#'Weekly cases of gonorrhea in Massachusetts between 2006 and 2015.
 #'
 #' @format A data frame with 422 rows and 4 variables:
 #' \describe{
@@ -57,7 +57,7 @@
 #'
 #' @format A data frame with 31 rows and 13 variables:
 #' \describe{
-#'   \item{absweek}{week since begining of outbreak}
+#'   \item{absweek}{week since beginning of outbreak}
 #'   \item{week}{week of the year}
 #'   \item{tot_cases}{weekly incidence for the whole city}
 #'   \item{tot_mort}{weekly deaths for the whole city}
@@ -81,7 +81,7 @@
 #'
 #' @format A data frame with 14 rows and 2 variables:
 #' \describe{
-#'   \item{day}{day since begining of outbreak}
+#'   \item{day}{day since beginning of outbreak}
 #'   \item{cases}{number of sick children}
 #' }
 #' @source Anonymous (1978) EPIDEMIOLOGY: Influenza in a boarding school. British Medical Journal, 4 March 1978 p.587.  
@@ -103,7 +103,7 @@
 
 #' Ferrari et al. 2005 outbreak data.
 #'
-#' The incidence aggreagted by serial interval of a number of outbreaks studied by Ferrari et al. 2005.
+#' The incidence aggregated by serial interval of a number of outbreaks studied by Ferrari et al. 2005.
 #'
 #' @format A data frame with 15 rows and 7 variables:
 #' \describe{
@@ -115,30 +115,30 @@
 #'   \item{SarsHk}{Number of cases of SARS in Hong Kong during the 2003 outbreak}
 #'   \item{SarsSing}{Number of cases of SARS in Singapore during the 2003 outbreak}
 #' }
-#' @source Ferrari et al. (2005) Estimation and inference of R-0 of an infectious pathogen by a removal method. Math Biosci 198: 14-26. doi.org/10.1016/j.mbs.2005.08.002.
+#' @source Ferrari et al. (2005) Estimation and inference of R-0 of an infectious pathogen by a removal method. Mathematical Biosciences 198: 14-26. doi.org/10.1016/j.mbs.2005.08.002.
 "ferrari"
 
-#' De et al. 2004 gonorhea contact matrix
+#' De et al. 2004 gonorrhea contact matrix
 #'
-#' The directed contact network from De et al. (2004) contact-tracing of the spread of gonorreah across asexual network in Alberta canada
+#' The directed contact network from De et al. (2004) contact-tracing of the spread of gonorrhea across asexual network in Alberta canada
 #'
 #' @format A matrix with 89 rows and 89 columns:
 #' \describe{
 #'   \item{gonet}{a matrix of directional contacts of disease spread}
 #' }
-#' @source De et al (2004). Sexual network analysis of a gonorrhoea outbreak. Sexually transmitted infections 80: 280-285. doi.org/10.1136/sti.2003.007187.
+#' @source De et al (2004). Sexual network analysis of a gonorrhea outbreak. Sexually transmitted infections 80: 280-285. doi.org/10.1136/sti.2003.007187.
 "gonnet"
 
 #' Black's measles seroprevalence data.
 #'
-#' Seroprevalence-by-agebracket for measles in prevaccination New Haven as studied by Black (1959).
+#' Seroprevalence-by-age-bracket for measles in prevaccination New Haven as studied by Black (1959).
 #'
 #' @format A data frame with 42 rows and 3 variables:
 #' \describe{
 #'   \item{age}{ age-bracket (in years)}
 #'   \item{mid}{mid-point of age-bracket (in years)}
 #'   \item{n}{number of tests}
-#'   \item{pos}{number seropositve}
+#'   \item{pos}{number seropositive}
 #'   \item{neg}{number seronegative}
 #'   \item{f}{seroprevalence}
 #' }
@@ -148,7 +148,7 @@
 
 #' Rabbit \emph{Bordetella brochiseptica} data.
 #'
-#'Rabbits infected by \emph{B. brochiseptica} by age as tudied by Long et al (2010).
+#'Rabbits infected by \emph{B. brochiseptica} by age as studied by Long et al (2010).
 #'
 #' @format A data frame with 42 rows and 3 variables:
 #' \describe{
@@ -161,7 +161,7 @@
 
 #' Rubella in Peru data.
 #'
-#' Rubella incidence by age as studied by Metcale et al (2011).
+#' Rubella incidence by age as studied by Metcalf et al (2011).
 #'
 #' @format A data frame with 95 rows and 2 variables:
 #' \describe{
@@ -257,7 +257,7 @@
 #'   \item{B}{Biweekly births}
 #' }
 #' @details Birth numbers are annual, so in the data set, this number is evenly distributed across the 26 bi-weeks of each year.
-#' @source Bjornstad et al. (2002) Endemic and epidemic dynamics of measles: Estimating transmission rates and their scaling using a time series SIR model. Ecol Monogr 72: 169-184. doi.org/10.2307/3100023.
+#' @source Bjornstad et al. (2002) Endemic and epidemic dynamics of measles: Estimating transmission rates and their scaling using a time series SIR model. Ecological Monographs 72: 169-184. doi.org/10.2307/3100023.
 "meas"
 
 #c6
@@ -282,7 +282,7 @@
 #' @source Sylvie Huijben 
 "SH9"
 
-#' Monthly incidence of inflenza-like illness in Iceland between 1980 and 2009.
+#' Monthly incidence of influenza-like illness in Iceland between 1980 and 2009.
 #'
 #' A dataset containing the monthly ILI incidence 
 #' in Iceland between 1980 and 2009.
@@ -369,7 +369,7 @@
 #' \describe{
 #'   \item{day}{the day of appearance of each case since day of outbreak}
 #' }
-#' @source Grais et al (2008) Time is of the essence: exploring a measles outbreak response vaccination in Niamey, Niger. Journal of the Royal Society Interface 5: 67-74. doi.org/10.1098/rsif.2007.1038.
+#' @source Grais et al. (2008) Time is of the essence: exploring a measles outbreak response vaccination in Niamey, Niger. Journal of the Royal Society Interface 5: 67-74. doi.org/10.1098/rsif.2007.1038.
 "niamey_daily"
 
 
@@ -391,7 +391,7 @@
 #'   \item{lat}{city latitude} 
 #'   \item{decimalYear}{time counter}
 #' }
-#' @source Dalziel et al. 2016. Persistent Chaos of Measles Epidemics in the Prevaccination United States Caused by a Small Change in Seasonal Transmission Patterns PLoS Comput Biol, Public Library of Science, 2016: e1004655.  doi.org/10.1371/journal.pcbi.1004655.
+#' @source Dalziel et al. 2016. Persistent chaos of measles epidemics in the prevaccination United States caused by a small change in seasonal transmission patterns. PLoS Computational Biology 2016: e1004655.  doi.org/10.1371/journal.pcbi.1004655.
 "dalziel"
 
 
@@ -432,7 +432,7 @@
 
 #' Burnett's Parasitoid-Host data.
 #'
-#' Data is of 22 generations of greenhouse white flies (\emph{Trialeurodes vaporariorum}) and it's parasitoid, \emph{Encarsia formosa}.
+#' Data is of 22 generations of greenhouse white flies (\emph{Trialeurodes vaporariorum}) and its parasitoid, \emph{Encarsia formosa}.
 #' Column names are self explanatory.
 #'
 #' @format A data frame with 22 rows and 7 variables:
@@ -445,7 +445,7 @@
 #'   \item{NumberofParasitesSearching}{ }
 #'   \item{PercentageofHostsParasitized}{ }
 #' }
-#' @source Burnett, T. A model of host-parasite interaction Proceedings of the 10th International Congress, Entomology, 1958, 2, 679-686
+#' @source Burnett, T. A. (1958) Model of host-parasite interaction Proceedings of the 10th International Congress, Entomology, 1958, 2, 679-686
 "burnett"
 
 #c10
@@ -453,7 +453,7 @@
 #' Raccoon rabies data.
 #'
 #' Data is the average monthly number of reported cases of rabid raccoons across all counties within each of 
-#' 11 east coast US states the time line is from the first reported case in each state (starting in late 1970s for West virginia).
+#' 11 east coast US states the time line is from the first reported case in each state (starting in late 1970s for West Virginia).
 #'
 #' @format A data frame with 208 rows and 12 variables:
 #' \describe{
@@ -461,7 +461,7 @@
 #'   \item{CT}{Connecticut}
 #'   \item{DE}{Delaware}
 #'   \item{MD}{Maryland}
-#'   \item{MA}{Massachusets}
+#'   \item{MA}{Massachusetts}
 #'   \item{NJ}{New Jersey}
 #'   \item{NY}{New York}
 #'   \item{NC}{North Carolina}
@@ -581,7 +581,7 @@
 #'   \item{Date}{date sampled}
 #'   \item{Animal.code}{animal identifier}
 #'   \item{msick}{dams infection status}
-#'   \item{Litter}{litter identifyer}
+#'   \item{Litter}{litter identifier}
 #'   \item{CFU}{bacterial count}
 #'   \item{Description}{unique litter identifier}
 #' }
@@ -592,7 +592,7 @@
 
 #' FIV infection in cats.
 #'
-#' Imunological measures on cats infected with different strains of FIV
+#' Immunological measures on cats infected with different strains of FIV
 #'
 #' @format A data frame with 238 rows and 18 variables:
 #' \describe{

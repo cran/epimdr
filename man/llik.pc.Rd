@@ -18,7 +18,7 @@ llik.pc(par, age, num, denom, up)
 \item{up}{a vector with upper age-bracket cut-offs}
 }
 \value{
-The negative log-likelihhod for a candidate piecewise constant catalytic model
+The negative log-likelihood for a candidate piecewise constant catalytic model
 }
 \description{
 This function uses binomial likelihoods to estimate the picewise-constant FoI model from age-incidence data

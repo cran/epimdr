@@ -10,7 +10,7 @@
   \item{CT}{Connecticut}
   \item{DE}{Delaware}
   \item{MD}{Maryland}
-  \item{MA}{Massachusets}
+  \item{MA}{Massachusetts}
   \item{NJ}{New Jersey}
   \item{NY}{New York}
   \item{NC}{North Carolina}
@@ -27,6 +27,6 @@ rabies
 }
 \description{
 Data is the average monthly number of reported cases of rabid raccoons across all counties within each of 
-11 east coast US states the time line is from the first reported case in each state (starting in late 1970s for West virginia).
+11 east coast US states the time line is from the first reported case in each state (starting in late 1970s for West Virginia).
 }
 \keyword{datasets}

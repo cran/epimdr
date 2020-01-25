@@ -9,7 +9,7 @@ WattsStrogatz(N, K, Prw)
 \arguments{
 \item{N}{the number of nodes}
 
-\item{K}{the number of neighbors to which each node is connected so degree = 2xK}
+\item{K}{the number of neighbors to which each node is connected so degree = 2*K}
 
 \item{Prw}{the rewiring probability}
 }

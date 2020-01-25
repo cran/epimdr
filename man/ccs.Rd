@@ -9,7 +9,7 @@
 \item{fade3}{Average duration of fadeout (of at least 3 weeks of length)}
   \item{ext}{Fraction of time when measles was absent}
   \item{size}{Median population size}
-  \item{fade}{Average duration of fadouts (of a week or longer)}
+  \item{fade}{Average duration of fadeouts (of a week or longer)}
   \item{se3}{Standard error fade3}
   \item{se}{Standard error of fade}
   \item{n3}{The number of fadeouts (of at least 3 weeks of length)} 

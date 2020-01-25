@@ -6,7 +6,7 @@
 \title{Weekly measles incidence from 2003-04 in Niamey, Niger.}
 \format{A data frame with 31 rows and 13 variables:
 \describe{
-  \item{absweek}{week since begining of outbreak}
+  \item{absweek}{week since beginning of outbreak}
   \item{week}{week of the year}
   \item{tot_cases}{weekly incidence for the whole city}
   \item{tot_mort}{weekly deaths for the whole city}

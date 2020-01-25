@@ -18,7 +18,7 @@
   \item{decimalYear}{time counter}
 }}
 \source{
-Dalziel et al. 2016. Persistent Chaos of Measles Epidemics in the Prevaccination United States Caused by a Small Change in Seasonal Transmission Patterns PLoS Comput Biol, Public Library of Science, 2016: e1004655.  doi.org/10.1371/journal.pcbi.1004655.
+Dalziel et al. 2016. Persistent chaos of measles epidemics in the prevaccination United States caused by a small change in seasonal transmission patterns. PLoS Computational Biology 2016: e1004655.  doi.org/10.1371/journal.pcbi.1004655.
 }
 \usage{
 dalziel

@@ -3,7 +3,7 @@
 \docType{data}
 \name{Icelandflu}
 \alias{Icelandflu}
-\title{Monthly incidence of inflenza-like illness in Iceland between 1980 and 2009.}
+\title{Monthly incidence of influenza-like illness in Iceland between 1980 and 2009.}
 \format{A data frame with 360 rows and 3 variables:
 \describe{
   \item{month}{the month}

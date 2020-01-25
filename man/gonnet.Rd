@@ -3,18 +3,18 @@
 \docType{data}
 \name{gonnet}
 \alias{gonnet}
-\title{De et al. 2004 gonorhea contact matrix}
+\title{De et al. 2004 gonorrhea contact matrix}
 \format{A matrix with 89 rows and 89 columns:
 \describe{
   \item{gonet}{a matrix of directional contacts of disease spread}
 }}
 \source{
-De et al (2004). Sexual network analysis of a gonorrhoea outbreak. Sexually transmitted infections 80: 280-285. doi.org/10.1136/sti.2003.007187.
+De et al (2004). Sexual network analysis of a gonorrhea outbreak. Sexually transmitted infections 80: 280-285. doi.org/10.1136/sti.2003.007187.
 }
 \usage{
 gonnet
 }
 \description{
-The directed contact network from De et al. (2004) contact-tracing of the spread of gonorreah across asexual network in Alberta canada
+The directed contact network from De et al. (2004) contact-tracing of the spread of gonorrhea across asexual network in Alberta canada
 }
 \keyword{datasets}

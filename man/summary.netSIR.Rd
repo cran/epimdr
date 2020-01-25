@@ -12,7 +12,7 @@
 \item{...}{other arguments}
 }
 \value{
-A data-frame with the time series of suceptible, infected and recovered individuals
+A data-frame with the time series of susceptible, infected and recovered individuals
 }
 \description{
 Function to summarize a netSIR object

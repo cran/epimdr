@@ -18,13 +18,13 @@ SimTsir2(beta, alpha, B, N, inits = list(Snull = 0, Inull = 0),
 
 \item{inits}{a list containing initial S and I}
 
-\item{type}{an argument "det" or "stoc" that determines wheter a deterministic or stochastic simulation is done}
+\item{type}{an argument "det" or "stoc" that determines whether a deterministic or stochastic simulation is done}
 }
 \value{
 A list with time series of simulated infected and susceptible hosts
 }
 \description{
-Function to simulate the stocastic TSIR assuming stochasticity in transmission and a Poisson birth-death process
+Function to simulate the stochastic TSIR assuming stochasticity in transmission and a Poisson birth-death process
 }
 \examples{
 \dontrun{see chapter 8 in book}

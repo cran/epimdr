@@ -7,9 +7,9 @@
 NB(R, a, T = 100, H0 = 10, P0 = 1)
 }
 \arguments{
-\item{R}{the host repruductive rate}
+\item{R}{the host reproductive rate}
 
-\item{a}{the parasite search efficiency}
+\item{a}{the parasitoid search efficiency}
 
 \item{T}{the length of simulation (number of time-steps)}
 
@@ -21,7 +21,7 @@ NB(R, a, T = 100, H0 = 10, P0 = 1)
 A list of simulated Host and Parasitoid numbers
 }
 \description{
-Function to simulate the Nicholson-Bailey Parasit-host model
+Function to simulate the Nicholson-Bailey Parasitoid-host model
 }
 \examples{
 sim= NB(R=1.1,a=0.1)

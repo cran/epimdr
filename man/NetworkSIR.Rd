@@ -10,9 +10,9 @@ NetworkSIR(CM, tau, gamma)
 \arguments{
 \item{CM}{a contact matrix}
 
-\item{tau}{the transmission probabiliy}
+\item{tau}{the transmission probability}
 
-\item{gamma}{the recovery probabiliy}
+\item{gamma}{the recovery probability}
 }
 \value{
 An object of class netSIR with infectious status for each node through time

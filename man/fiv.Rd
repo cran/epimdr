@@ -32,6 +32,6 @@ Roy et al. 2009. Multivariate statistical analyses demonstrate unique host immun
 fiv
 }
 \description{
-Imunological measures on cats infected with different strains of FIV
+Immunological measures on cats infected with different strains of FIV
 }
 \keyword{datasets}

@@ -9,7 +9,7 @@ BarabasiAlbert(N, K)
 \arguments{
 \item{N}{the number of nodes}
 
-\item{K}{the number of neighbors to which each node is connected so degree = 2xK}
+\item{K}{the number of neighbors to which each node is connected so degree = 2*K}
 }
 \value{
 An object of class CM (contact matrix)

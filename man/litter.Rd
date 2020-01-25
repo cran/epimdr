@@ -11,7 +11,7 @@
   \item{Date}{date sampled}
   \item{Animal.code}{animal identifier}
   \item{msick}{dams infection status}
-  \item{Litter}{litter identifyer}
+  \item{Litter}{litter identifier}
   \item{CFU}{bacterial count}
   \item{Description}{unique litter identifier}
 }}

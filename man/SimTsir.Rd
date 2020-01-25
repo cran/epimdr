@@ -2,7 +2,7 @@
 % Please edit documentation in R/rfuncs.R
 \name{SimTsir}
 \alias{SimTsir}
-\title{Function to simulate the stocastic TSIR}
+\title{Function to simulate the stochastic TSIR}
 \usage{
 SimTsir(alpha = 0.97, B = 2300, beta = 25, sdbeta = 0, S0 = 0.06,
   I0 = 180, IT = 520, N = 3300000)
@@ -28,7 +28,7 @@ SimTsir(alpha = 0.97, B = 2300, beta = 25, sdbeta = 0, S0 = 0.06,
 A list with time series of simulated infected and susceptible hosts
 }
 \description{
-Function to simulate the stocastic TSIR assuming stochasticity in transmission and a Poisson birth-death process
+Function to simulate the stochastic TSIR assuming stochasticity in transmission and a Poisson birth-death process
 }
 \examples{
 out = SimTsir()

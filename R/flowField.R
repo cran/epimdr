@@ -1,4 +1,4 @@
-#' Flow field
+#' Flowfield
 #'
 #' Plots the flow or velocity field for a one- or two-dimensional autonomous ODE
 #' system.

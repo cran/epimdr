@@ -17,6 +17,6 @@ Long et al (2010) Identifying the Age Cohort Responsible for Transmission in a N
 rabbit
 }
 \description{
-Rabbits infected by \emph{B. brochiseptica} by age as tudied by Long et al (2010).
+Rabbits infected by \emph{B. brochiseptica} by age as studied by Long et al (2010).
 }
 \keyword{datasets}

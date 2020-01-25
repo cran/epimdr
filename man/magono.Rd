@@ -3,7 +3,7 @@
 \docType{data}
 \name{magono}
 \alias{magono}
-\title{Massachustets gonorrhea data.}
+\title{Massachusetts gonorrhea data.}
 \format{A data frame with 422 rows and 4 variables:
 \describe{
 \item{number}{Weekly case reports}
@@ -18,6 +18,6 @@
 magono
 }
 \description{
-Weekly cases of gonorrhea in Massachusets between 2006 and 2015.
+Weekly cases of gonorrhea in Massachusetts between 2006 and 2015.
 }
 \keyword{datasets}

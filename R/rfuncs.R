@@ -133,7 +133,7 @@ return(inte)
 #' @param num a vector with number infected by age
 #' @param denom a vector with number tested by age
 #' @param up a vector with upper age-bracket cut-offs
-#' @return The negative log-likelihhod for a candidate piecewise constant catalytic model
+#' @return The negative log-likelihood for a candidate piecewise constant catalytic model
 #' @examples
 #' x=c(1,4,8,12,18,24)
 #' para=rep(.1,length(x))
@@ -214,7 +214,7 @@ seirmod2=function(t, y, parms){
 })
 } 
 
-#' Gradient-function for the age-structured SIR model with possibly heterogeneous mixin
+#' Gradient-function for the age-structured SIR model with possibly heterogeneous mixing
 #' @param t Implicit argument for time
 #' @param logx  A vector with log-values for the log-states
 #' @param parms A vector with parameter values for the age-structured SIR system
@@ -248,9 +248,9 @@ siragemod = function(t, logx,  parms){
 
 #c6
 
-#' Function to simulate the stocastic TSIR
+#' Function to simulate the stochastic TSIR
 #'
-#' Function to simulate the stocastic TSIR assuming stochasticity in transmission and a Poisson birth-death process
+#' Function to simulate the stochastic TSIR assuming stochasticity in transmission and a Poisson birth-death process
 #'
 #' @param alpha the exponent on I
 #' @param B the birth rate
@@ -285,14 +285,14 @@ SimTsir=function(alpha=0.97, B=2300, beta=25, sdbeta=0,
 
 #' Function to simulate the seasonally-forced TSIR
 #'
-#' Function to simulate the stocastic TSIR assuming stochasticity in transmission and a Poisson birth-death process
+#' Function to simulate the stochastic TSIR assuming stochasticity in transmission and a Poisson birth-death process
 #'
 #' @param beta the seasonal transmission coefficients
 #' @param alpha the exponent on I
 #' @param B a vector of Births (the length of which determines the length of the simulation)
 #' @param N the population size
 #' @param inits a list containing initial S and I
-#' @param type an argument "det" or "stoc" that determines wheter a deterministic or stochastic simulation is done
+#' @param type an argument "det" or "stoc" that determines whether a deterministic or stochastic simulation is done
 #' @return A list with time series of simulated infected and susceptible hosts
 #' @examples
 #' \dontrun{see chapter 8 in book}
@@ -507,8 +507,8 @@ coyne=function(t, logx, parms){
 #'
 #' Function to do  Lyapunov exponent calculations from a TSIR simulation
 #'
-#' @param I a vector containg the time series of Is
-#' @param S vector containg the time series of Ss
+#' @param I a vector containing the time series of Is
+#' @param S vector containing the time series of Ss
 #' @param bt the seasonal transmission coefficients
 #' @param alpha the exponent on I
 #' @param N the population size
@@ -631,7 +631,7 @@ segments(segx1,segy1, segx2, segy2, lty=as.vector(x))
 
 #' Function to generate a Watts-Strogats network
 #' @param N the number of nodes
-#' @param K the number of neighbors to which each node is connected so degree = 2xK
+#' @param K the number of neighbors to which each node is connected so degree = 2*K
 #' @param Prw the rewiring probability
 #' @return An object of class CM (contact matrix)
 #' @examples
@@ -662,7 +662,7 @@ return(CMWS)
 
 #' Function to calculate the degree distribution for an object of class CM
 #' @param object an object of class cm
-#' @param plot if TRUE a barplot of the degree distribution is produced 
+#' @param plot if TRUE a bar plot of the degree distribution is produced 
 #' @param ... other arguments 
 #' @return A plot of the contract matrix
 #' @examples
@@ -680,7 +680,7 @@ summary.cm=function(object, plot=FALSE, ...){
 
 #' Function to generate a Barabasi-Albert network
 #' @param N the number of nodes
-#' @param K the number of neighbors to which each node is connected so degree = 2xK
+#' @param K the number of neighbors to which each node is connected so degree = 2*K
 #' @return An object of class CM (contact matrix)
 #' @examples
 #' cm3=BarabasiAlbert(200, 4)
@@ -705,8 +705,8 @@ return(CM)
 #' Function to simulate a stochastic (discrete time) Reed-Frost SIR model on a social network
 #' 
 #' @param CM a contact matrix
-#' @param tau the transmission probabiliy
-#' @param gamma the recovery probabiliy
+#' @param tau the transmission probability
+#' @param gamma the recovery probability
 #' @return An object of class netSIR with infectious status for each node through time
 #' @examples
 #' cm1=BarabasiAlbert(N=200,K=2)
@@ -752,7 +752,7 @@ return(res)
 
 #' Function to summarize a netSIR object
 #' @param object an object of class netSIR
-#' @return A data-frame with the time series of suceptible, infected and recovered individuals
+#' @return A data-frame with the time series of susceptible, infected and recovered individuals
 #' @param ... other arguments 
 #' @seealso
 #' \code{\link{netSIR}}
@@ -805,10 +805,10 @@ x=apply(CM, 2, sum)
 
 #' The Nicholson-Bailey model
 #'
-#' Function to simulate the Nicholson-Bailey Parasit-host model
+#' Function to simulate the Nicholson-Bailey Parasitoid-host model
 #'
-#' @param R the host repruductive rate
-#' @param a the parasite search efficiency
+#' @param R the host reproductive rate
+#' @param a the parasitoid search efficiency
 #' @param T the length of simulation (number of time-steps)
 #' @param H0 initial host numbers
 #' @param P0 initial parasitoid numbers
@@ -836,6 +836,3 @@ x=apply(CM, 2, sum)
    return(res)
 } 
 
-
-
-#

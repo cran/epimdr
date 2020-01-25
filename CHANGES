@@ -1,3 +1,5 @@
+0.6-5 Fixed legend in shiny Apps
+
 0.6-4 includes flowField function from Michael J Grayling's phaseR package (https://github.com/mjg211) as per GPL-3 license.
 
  0.6-3 Improved shinyApps
